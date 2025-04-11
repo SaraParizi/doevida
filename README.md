@@ -1,19 +1,36 @@
-# 🧠 Desafio - Algoritmos e Programação
+# 🩸 DoeVida
 
-## 📚 Descrição
+Protótipo de um site desenvolvido como atividade para a disciplina de Computação, no curso de Ciência da Computação.
 
-Este projeto foi desenvolvido como parte do **Desafio proposto no Módulo 1** da disciplina **Algoritmos e Programação**, no curso de **Ciência da Computação - Unisinos**.
+## 💡 Sobre o projeto
 
-O objetivo do desafio é aplicar os primeiros conceitos aprendidos em lógica de programação, utilizando a linguagem **Python** para resolução de problemas.
+**DoeVida** é uma proposta de rede social solidária que conecta pessoas que precisam de doações com aquelas dispostas a ajudar. As doações podem ser de:
+
+- Sangue
+- Medula óssea
+- Leite materno
+
+Além disso, o projeto busca solucionar uma das maiores barreiras enfrentadas por quem precisa de doações: **o deslocamento até os pontos de coleta**. Para isso, propõe uma integração com aplicativos de transporte e caronas solidárias.
+
+## 🎯 Objetivos
+
+- Criar um ambiente digital que incentive a solidariedade e facilite a comunicação entre doadores e receptores.
+- Promover parcerias que ajudem no deslocamento até os centros de doação.
+- Oferecer funcionalidades como postagens, perfis e informações sobre os tipos de doação.
 
 ## 🛠️ Tecnologias utilizadas
 
-- **Python** 🐍
+- HTML
+- CSS
+- JavaScript (básico)
 
-## 🚀 Como executar
+## 📌 Status do projeto
 
-1. Certifique-se de ter o Python instalado (versão 3.x).
-2. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+🚧 Em desenvolvimento — este é um protótipo inicial feito para fins acadêmicos.
+
+## 👩‍💻 Desenvolvido por
+
+Projeto acadêmico criado por [Seu Nome Aqui] para a disciplina de Computação — Curso de Ciência da Computação.
+
+---
 
