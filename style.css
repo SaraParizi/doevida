@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f5; 
+    box-sizing: border-box;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background: #FEB6B3; 
+    color: black;
+    position: fixed;
+    padding-top: 20px;
+}
+
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-weight: bold;
+    margin: 10px 5px 5px; 
+    border-radius: 10px; 
+    border: 2px solid white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white; 
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+/* LOGO SIDEBAR */
+.sidebar-logo {
+    display: block; 
+    margin: 0 auto 20px; 
+    max-width: 240px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+/* HOME */
+.logo-image {
+    display: block; 
+    margin: 20px auto; 
+    max-width: 400px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.botaoinicial {
+    display: block;
+    margin: auto;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 110px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center; 
+    transition: background-color 0.3s ease;
+    
+}
+
+
+/* CONFIGURAÇÕES GERAIS CARDS */
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+    justify-content: space-between; 
+}
+
+.card {
+    position: relative; 
+    flex: 1; 
+    max-width: 48%; 
+    background: #FEB6B3; 
+    padding: 20px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    overflow: hidden; 
+}
+
+.card, .profile-info, .donation-requirements {
+    background: #FEB6B3; 
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+    font-weight: bold;
+}
+
+
+/* IMAGENS DOS CARDS */
+.card img.card-image {
+    width: 100%; 
+    max-width: 300px; 
+    max-height: 200px; 
+    height: auto; 
+    margin-bottom: 50px; 
+    border-radius: 5px; 
+    display: block; 
+}
+
+/* BUTTON CARD */
+.card button {
+    position: absolute; 
+    bottom: 20px; 
+    left: 20px; 
+    right: 20px; 
+
+    background-color: red;
+    border: none;
+
+    color: white;
+    font-weight: bold;
+   
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; 
+    height: 40px; 
+    text-align: center; 
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #cc0000; 
+}
+
+
+/* PERFIL */
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card button, .donation-requirements a {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover, .donation-requirements a:hover {
+    background-color: #cc0000; /* Vermelho mais escuro */
+}
+
+
+
+section {
+    display: none; 
+}
+
+section:target {
+    display: block; 
+}
+
